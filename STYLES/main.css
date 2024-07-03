@@ -27,3 +27,43 @@
     font-size: 24px;
     font-weight: 500;
 }
+.objetivos__inicio {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    align-items: baseline;
+}
+.inicio__titulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+.inicio__barra {
+    width: 50%;
+    size: 5;
+    padding: 0.2em;
+    border: 0;
+    background-color: var(--cor-terciaria);
+}
+.objetivos__fim {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+
+}
+.fim__card {
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    margin: 0.2em;
+    padding: 0.5em;
+    border-radius: 0.6em;
+}
+.fim__card_imagem, .fim__card_texto {
+    background-color: var(--cor-terciaria);
+}
+.fim__card_imagem {
+    width: 60%;
+    height: 60%;
+}
+.fim__card_texto {
+    font-size: 11px;
+}
