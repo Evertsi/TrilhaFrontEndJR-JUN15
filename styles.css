@@ -1,0 +1,17 @@
+@import url(./STYLES/header.css);
+@import url(./STYLES/banner.css);
+
+:root {
+    --cor-de-fundo: #000000;
+    --cor-texto: #ffffff;
+    --cor-detalhes: #e53939;
+    --font-primaria: "Source Sans 3";
+}
+
+* {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font-primaria);
+    font-size: 16px;
+    font-weight: 400;
+}

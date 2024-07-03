@@ -1,0 +1,8 @@
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+}
+.cabecalho__imagem {
+    width: 100px;
+    height: 80px;
+}
