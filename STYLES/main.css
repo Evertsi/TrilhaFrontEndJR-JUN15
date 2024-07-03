@@ -67,3 +67,31 @@
 .fim__card_texto {
     font-size: 11px;
 }
+.gostos {
+    display: flex;
+    flex-direction: column;
+}
+.gostos__titulo {
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 1em;
+    padding: 0.5em 0;
+}
+.gostos__lista {
+    list-style-type: disc;
+    margin: 0 2em 1em 2em;
+}
+.card2 {
+    background-color: var(--cor-terciaria);
+    margin: 1em;
+    padding: 1em;
+}
+.card2__titulo, .card2__texto {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding: 0.2em;
+}
+.card2__titulo {
+    font-size: 24px;
+    font-weight: 500;
+}
