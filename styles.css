@@ -1,16 +1,16 @@
 @import url(./STYLES/header.css);
-@import url(./STYLES/banner.css);
+@import url(./STYLES/main.css);
 
 :root {
-    --cor-de-fundo: #000000;
-    --cor-texto: #ffffff;
-    --cor-detalhes: #e53939;
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #e53939;
     --font-primaria: "Source Sans 3";
 }
 
 * {
-    background-color: var(--cor-de-fundo);
-    color: var(--cor-texto);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     font-family: var(--font-primaria);
     font-size: 16px;
     font-weight: 400;
