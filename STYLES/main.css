@@ -122,4 +122,28 @@
     }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .banner {
+        flex-direction: row-reverse;
+    }
+    .banner__imagem {
+        width: 50%;
+        height: 50%;
+    }
+    .banner__titulo {
+        font-size: 60px;
+    }
+    .card__titulo, .inicio__titulo, .gostos__titulo, .card2__titulo{
+        font-size: 40px;
+    }
+    .card__texto, .gostos__lista, .card2__texto, .fim__card_texto{
+        font-size: 25px;
+    }
+    .inicio__barra {
+        padding: 0.4em 8em;
+    }
+    .fim__card_imagem {
+        width: 70%;
+        height: 70%;
+    }
+}

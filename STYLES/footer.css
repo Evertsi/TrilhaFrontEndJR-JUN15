@@ -28,4 +28,8 @@ a:visited {
     }
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    .rodape__texto {
+        padding-right: 20em;
+    }
+}
