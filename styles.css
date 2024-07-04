@@ -1,5 +1,6 @@
 @import url(./STYLES/header.css);
 @import url(./STYLES/main.css);
+@import url(./STYLES/footer.css);
 
 :root {
     --cor-primaria: #000000;
